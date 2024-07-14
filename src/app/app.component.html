@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>health-challenge-tracker</h1>
+  <app-user-input (workoutAdded)="onWorkoutAdded($event)"></app-user-input>
+  <app-workout-list [workouts]="userWorkouts"></app-workout-list>
+  
+  <div class="container">
+    <div class="user-selection">
+      <select class="user-dropdown" (change)="onSelectUser($event)">
+        <option value="">Choose a user</option>
+        <option *ngFor="let user of users" [value]="user">{{ user }}</option>
+      </select>
+    </div>
+  
+    </div>
+  
+  
+  <app-chart [userData]="userWorkouts"></app-chart>
+</div>

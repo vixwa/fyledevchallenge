@@ -1,0 +1,24 @@
+<div class="form-container">
+  <form (ngSubmit)="addWorkout()" class="centered-form">
+    <div class="form-group">
+      <mat-form-field class="full-width">
+        <input matInput placeholder="User Name" [(ngModel)]="userName" name="userName" required>
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field class="full-width">
+        <mat-select placeholder="Workout Type" [(ngModel)]="workoutType" name="workoutType" required>
+          <mat-option *ngFor="let type of workoutTypes" [value]="type">{{ type }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field class="full-width">
+        <input matInput type="number" placeholder="Workout Minutes" [(ngModel)]="workoutMinutes" name="workoutMinutes" required>
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <button mat-raised-button color="primary">Add Workout</button>
+    </div>
+  </form>
+</div>

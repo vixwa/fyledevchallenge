@@ -1,0 +1,8 @@
+/* src/app/chart/chart.component.css */
+.bar {
+    fill: rgb(50, 149, 231);
+  }
+  
+  .axis--x path {
+    display: none;
+  }

@@ -1,0 +1,73 @@
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(247, 219, 219, 0.95);  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Space between filters and table */
+    max-width: 1200px; /* Optional: limit the maximum width */
+    
+  }
+  
+  .filter-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px; /* Space between the two fields */
+    
+  }
+  .filter-field {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .mat-form-field {
+    font-size: 14px; /* Adjust font size */
+    color: #666; /* Adjust text color */
+  }
+  
+  .mat-form-field-appearance-standard .mat-form-field-wrapper {
+    background-color: #f0f0f0; /* Adjust background color */
+    border: 1px solid #ccc;
+  }
+  
+  .mat-form-field-appearance-standard .mat-form-field-label {
+    color: #666; /* Adjust label color */
+  }
+  
+  .mat-select-value-text {
+    color: #333; /* Adjust selected option color */
+  }
+  .filter-field {
+    flex: 1;
+    min-width: 150px;
+    color:  rgba(247, 219, 219, 0.95);
+  }
+  
+  .paginator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+
+  }
+
+  .mat-elevation-z8{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(210, 180, 171,0.4);
+  color: #000000;
+  border: 1px solid #7b3333;
+
+  }
+
+
+
+
+
+
+
+  

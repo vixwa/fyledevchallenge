@@ -1,0 +1,35 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* This ensures the form is vertically centered on the page */
+  }
+  
+  .centered-form {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  
+  .form-group {
+    margin-bottom: 20px;
+    
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  
+
+  
+  button {
+    background-color: rgb(210, 180, 171,0.2);
+    color: rgb(161, 115, 17);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: rgba(247, 219, 219, 0.95);  }
